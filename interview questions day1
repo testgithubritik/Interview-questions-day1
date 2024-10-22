@@ -1,0 +1,90 @@
+//1
+//difference between "=="and "===" operators?
+//.(equality operator ==) = compares two values for equality after performing.
+//console.log (10=="10");
+//.(strict equality operator ===)= compare two values  for equality without  type coercion.
+// both the  part (value nd type) must be same for it to return true 
+//console.log(5==="5"); (number nd string )
+
+
+
+//2
+//what are the diff between var, let const?
+// var=var are hosting nd function level scope .
+//let= let can be you expect to change variables
+// const = const for constant  variables that you  don't expect to change 
+
+// var x =1;
+// let y = 2;
+// const z= 3;
+//if (true){
+//var x =10;
+//let y =20;
+// const z=30;
+// console.log (x,y,z); output =10,20,30
+
+// console.log (x,y,z); output = 10,2,3
+//}
+
+
+
+
+//3
+//what is execution context ?
+//  execution context is the environment in which javascript code is executed.
+// there are two phase =
+// 1 . creation phase 
+// 2 .  execution phase 
+
+
+//4
+// what is creation phase and execution phase.?
+//1 . creation phase =  the javascript engine sets up the environment for the code to be executed
+// 2 .  execution phase = in this phase , the javascipt engine executes the code line by line .
+// creation phase = variable object (vo), scope chain , "this" keyword
+// execution phase = code , execution , environment 
+
+
+// 5 
+
+// what is hoisting?
+ //  default behavior of moving  declarations to the top  
+
+
+// 6
+
+// diff between  undefined vs not ?
+// undefined =  like we declared a variable  in the code  but did not assign  the value  before printing  the variable value .
+// not defined =  like when we did not declare the variable and try to  call that variable .
+
+// undefined
+
+// console.log (a):
+// var a = 5;
+// console.log (a);
+
+// not defined 
+
+//console.log (a);
+// var a = 5 ;
+// console. log (a);
+// console.log (b);
+
+
+// how many operators do we have in js?
+// 1 arithmetic operators 
+//let x = 3;
+// let y = 5;
+ // console.log (x+y);
+
+ //2 logical operators 
+ // console.log (7 > 2 && 5 > 4);
+
+ // 3 assignment operators 
+// let x = 5 ;
+ // x = x + 2;
+  // (x+=2);
+
+// 4 bit wise opertors
+
+// 5 assignment operators
